@@ -23,7 +23,7 @@ public class Recv2 {
                                        byte[] body) throws IOException {
                 // body 即消息体
                 String msg = new String(body);
-                System.out.println(" [x] received : " + msg + "!");
+                System.out.println(" [work消费者2] received : " + msg + "!");
                 // 手动进行ACK
                 channel.basicAck(envelope.getDeliveryTag(), false);
             }
