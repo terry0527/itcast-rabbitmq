@@ -7,8 +7,6 @@ import java.io.IOException;
 
 /**
  * description
- * Copyright (C), 2017-2020,
- * @author chengjin
  * @version 1.0
  * date: 2020/8/12 12:31
  * history:
