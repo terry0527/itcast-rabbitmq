@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class Recv {
 
+    //分支1
     private final static String QUEUE_NAME = "direct_exchange_queue_1";
     private final static String EXCHANGE_NAME = "direct_exchange_test";
 
